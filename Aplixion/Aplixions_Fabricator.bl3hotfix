@@ -1,9 +1,18 @@
 ###
-### Aplixion's Currency Distributor
+### Name: Aplixion's Currency Distributor
+### Version: 1.0.2
+### Author: Aplixion
+### Contact (Discord): Aplixion#3275
+### Categories: cheat, economy
+###
+### License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+### License URL: https://creativecommons.org/licenses/by-sa/4.0/
 ###
 ### Converts the Fabricator's primary firing mode to fire Diamond Keys, Vault Card Keys, and Money.
 ###
 ### Converts the Fabricator's secondary firing mode to fire Eridium.
+###
+### Adjusts the color and size of item "Loot Beams".
 ###
 ### Also improves the Fabricator's recoil quite a bit.
 ###
@@ -103,7 +112,7 @@ SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Fabricator/ItemPool_Fabri
 SparkPatchEntry,(1,1,0,),/Game/GameData/Loot/ItemPools/Fabricator/ItemPool_FabricatorGuns_AltFire.ItemPool_FabricatorGuns_AltFire,Quantity,0,,(BaseValueConstant=8,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1)
 
 # Change the "Diamond Key" mesh
-SparkPatchEntry,(1,1,0,),/Game/PatchDLC/VaultCard/Data/Currency/BP_DiamondKey_Single.Default__BP_DiamondKey_Single_C,ItemMeshComponent.Object..StaticMesh,0,,StaticMesh'"/Game/InteractiveObjects/MissionSpecificObjects/Beach/Eridian_Crystals/_Shared/Model/Meshes/SM_Eridian_Crystal"'
+SparkPatchEntry,(1,1,0,),/Game/PatchDLC/VaultCard/Data/Currency/BP_DiamondKey_Single.Default__BP_DiamondKey_Single_C,ItemMeshComponent.Object..StaticMesh,0,,StaticMesh'"/Game/Gear/Weapons/_Shared/Effects/Meshes/SM_Buttstallion_Dynamic"'
 
 # Change the "VaultCard 1 Key" mesh
 SparkPatchEntry,(1,1,0,),/Game/PatchDLC/VaultCard/Data/Currency/BP_VaultCard01Key1.Default__BP_VaultCard01Key1_C,ItemMeshComponent.Object..StaticMesh,0,,StaticMesh'"/Game/LevelArt/Environments/_Global/Bones/Human/Skulls/Model/Meshes/SM_Skull_01.SM_Skull_01"'
